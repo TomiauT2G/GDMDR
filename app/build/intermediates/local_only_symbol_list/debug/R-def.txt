@@ -11,7 +11,16 @@ drawable ic_launcher_background
 drawable ic_launcher_foreground
 id BotonQR
 id ResultadoQR
+id buttonBurger
+id buttonLogin
+id buttonPasta
+id buttonPizza
+id editTextPassword
+id editTextUsername
+id menuLayout
 layout activity_main
+layout activity_menu1
+layout activity_qr
 mipmap ic_launcher
 mipmap ic_launcher_round
 string app_name

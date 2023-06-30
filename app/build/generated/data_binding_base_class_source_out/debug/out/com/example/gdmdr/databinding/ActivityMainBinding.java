@@ -21,16 +21,20 @@ public final class ActivityMainBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final Button BotonQR;
+  public final Button buttonLogin;
 
   @NonNull
-  public final EditText ResultadoQR;
+  public final EditText editTextPassword;
 
-  private ActivityMainBinding(@NonNull ConstraintLayout rootView, @NonNull Button BotonQR,
-      @NonNull EditText ResultadoQR) {
+  @NonNull
+  public final EditText editTextUsername;
+
+  private ActivityMainBinding(@NonNull ConstraintLayout rootView, @NonNull Button buttonLogin,
+      @NonNull EditText editTextPassword, @NonNull EditText editTextUsername) {
     this.rootView = rootView;
-    this.BotonQR = BotonQR;
-    this.ResultadoQR = ResultadoQR;
+    this.buttonLogin = buttonLogin;
+    this.editTextPassword = editTextPassword;
+    this.editTextUsername = editTextUsername;
   }
 
   @Override
@@ -60,19 +64,26 @@ public final class ActivityMainBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.BotonQR;
-      Button BotonQR = ViewBindings.findChildViewById(rootView, id);
-      if (BotonQR == null) {
+      id = R.id.buttonLogin;
+      Button buttonLogin = ViewBindings.findChildViewById(rootView, id);
+      if (buttonLogin == null) {
         break missingId;
       }
 
-      id = R.id.ResultadoQR;
-      EditText ResultadoQR = ViewBindings.findChildViewById(rootView, id);
-      if (ResultadoQR == null) {
+      id = R.id.editTextPassword;
+      EditText editTextPassword = ViewBindings.findChildViewById(rootView, id);
+      if (editTextPassword == null) {
         break missingId;
       }
 
-      return new ActivityMainBinding((ConstraintLayout) rootView, BotonQR, ResultadoQR);
+      id = R.id.editTextUsername;
+      EditText editTextUsername = ViewBindings.findChildViewById(rootView, id);
+      if (editTextUsername == null) {
+        break missingId;
+      }
+
+      return new ActivityMainBinding((ConstraintLayout) rootView, buttonLogin, editTextPassword,
+          editTextUsername);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

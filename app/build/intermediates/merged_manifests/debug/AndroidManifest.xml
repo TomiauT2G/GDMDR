@@ -48,6 +48,15 @@
         android:testOnly="true"
         android:theme="@style/Theme.GDMDR" >
         <activity
+            android:name="com.example.gdmdr.Menu1"
+            android:exported="false" />
+        <activity
+            android:name="com.example.gdmdr.MainActivity2"
+            android:exported="false" />
+        <activity
+            android:name="com.example.gdmdr.QR"
+            android:exported="false" />
+        <activity
             android:name="com.example.gdmdr.MainActivity"
             android:exported="true" >
             <intent-filter>
