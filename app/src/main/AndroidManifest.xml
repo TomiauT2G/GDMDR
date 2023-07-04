@@ -12,10 +12,10 @@
             android:theme="@style/Theme.GDMDR"
             tools:targetApi="31">
         <activity
-                android:name=".Menu1"
+                android:name=".CarritoActivity"
                 android:exported="false"/>
         <activity
-                android:name=".MainActivity2"
+                android:name=".Menu1"
                 android:exported="false"/>
         <activity
                 android:name=".QR"

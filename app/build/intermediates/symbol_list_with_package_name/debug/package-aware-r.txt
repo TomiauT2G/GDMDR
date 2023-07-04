@@ -3030,12 +3030,10 @@ drawable tooltip_frame_light
 id ALT
 id BOTTOM_END
 id BOTTOM_START
-id BotonQR
 id CTRL
 id FUNCTION
 id META
 id NO_DEBUG
-id ResultadoQR
 id SHIFT
 id SHOW_ALL
 id SHOW_PATH
@@ -3116,6 +3114,7 @@ id auto
 id autoComplete
 id autoCompleteToEnd
 id autoCompleteToStart
+id barcodeScannerView
 id barrier
 id baseline
 id beginOnFirstDraw
@@ -3128,10 +3127,12 @@ id bounceBoth
 id bounceEnd
 id bounceStart
 id buttonBurger
+id buttonEnsalada
 id buttonLogin
 id buttonPanel
 id buttonPasta
 id buttonPizza
+id buttonVerCarrito
 id cache_measures
 id callMeasure
 id cancel_button
@@ -3481,6 +3482,8 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
+id textViewCarrito
+id textViewPrecioTotal
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -3655,6 +3658,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_carrito
 layout activity_main
 layout activity_menu1
 layout activity_qr

@@ -36,6 +36,10 @@
         "source": "C:\\Users\\TomiauT2G\\.gradle\\daemon\\7.5\\com.example.gdmdr.app-main-32:\\mipmap-xhdpi\\ic_launcher.webp"
     },
     {
+        "merged": "C:\\Users\\TomiauT2G\\.gradle\\daemon\\7.5\\com.example.gdmdr.app-merged_res-30:\\layout_activity_carrito.xml.flat",
+        "source": "C:\\Users\\TomiauT2G\\.gradle\\daemon\\7.5\\com.example.gdmdr.app-main-32:\\layout\\activity_carrito.xml"
+    },
+    {
         "merged": "C:\\Users\\TomiauT2G\\.gradle\\daemon\\7.5\\com.example.gdmdr.app-merged_res-30:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
         "source": "C:\\Users\\TomiauT2G\\.gradle\\daemon\\7.5\\com.example.gdmdr.app-main-32:\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
@@ -44,12 +48,12 @@
         "source": "C:\\Users\\TomiauT2G\\.gradle\\daemon\\7.5\\com.example.gdmdr.app-main-32:\\mipmap-hdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.gdmdr.app-merged_res-30:/layout_activity_menu1.xml.flat",
-        "source": "com.example.gdmdr.app-main-32:/layout/activity_menu1.xml"
-    },
-    {
         "merged": "C:\\Users\\TomiauT2G\\.gradle\\daemon\\7.5\\com.example.gdmdr.app-merged_res-30:\\mipmap-hdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\TomiauT2G\\.gradle\\daemon\\7.5\\com.example.gdmdr.app-main-32:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.gdmdr.app-merged_res-30:/layout_activity_carrito.xml.flat",
+        "source": "com.example.gdmdr.app-main-32:/layout/activity_carrito.xml"
     },
     {
         "merged": "C:\\Users\\TomiauT2G\\.gradle\\daemon\\7.5\\com.example.gdmdr.app-merged_res-30:\\mipmap-xxhdpi_ic_launcher.webp.flat",
@@ -68,16 +72,16 @@
         "source": "C:\\Users\\TomiauT2G\\.gradle\\daemon\\7.5\\com.example.gdmdr.app-main-32:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\TomiauT2G\\.gradle\\daemon\\7.5\\com.example.gdmdr.app-merged_res-30:\\layout_activity_main2.xml.flat",
-        "source": "C:\\Users\\TomiauT2G\\.gradle\\daemon\\7.5\\com.example.gdmdr.app-main-32:\\layout\\activity_main2.xml"
-    },
-    {
-        "merged": "C:\\Users\\TomiauT2G\\.gradle\\daemon\\7.5\\com.example.gdmdr.app-merged_res-30:\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\TomiauT2G\\.gradle\\daemon\\7.5\\com.example.gdmdr.app-main-32:\\layout\\activity_main.xml"
+        "merged": "C:\\Users\\TomiauT2G\\.gradle\\daemon\\7.5\\com.example.gdmdr.app-merged_res-30:\\layout_activity_menu1.xml.flat",
+        "source": "C:\\Users\\TomiauT2G\\.gradle\\daemon\\7.5\\com.example.gdmdr.app-main-32:\\layout\\activity_menu1.xml"
     },
     {
         "merged": "C:\\Users\\TomiauT2G\\.gradle\\daemon\\7.5\\com.example.gdmdr.app-merged_res-30:\\xml_data_extraction_rules.xml.flat",
         "source": "C:\\Users\\TomiauT2G\\.gradle\\daemon\\7.5\\com.example.gdmdr.app-main-32:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\TomiauT2G\\.gradle\\daemon\\7.5\\com.example.gdmdr.app-merged_res-30:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\TomiauT2G\\.gradle\\daemon\\7.5\\com.example.gdmdr.app-main-32:\\layout\\activity_main.xml"
     },
     {
         "merged": "C:\\Users\\TomiauT2G\\.gradle\\daemon\\7.5\\com.example.gdmdr.app-merged_res-30:\\xml_backup_rules.xml.flat",

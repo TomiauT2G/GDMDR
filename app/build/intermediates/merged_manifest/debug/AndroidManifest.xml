@@ -48,10 +48,10 @@
         android:testOnly="true"
         android:theme="@style/Theme.GDMDR" >
         <activity
-            android:name="com.example.gdmdr.Menu1"
+            android:name="com.example.gdmdr.CarritoActivity"
             android:exported="false" />
         <activity
-            android:name="com.example.gdmdr.MainActivity2"
+            android:name="com.example.gdmdr.Menu1"
             android:exported="false" />
         <activity
             android:name="com.example.gdmdr.QR"

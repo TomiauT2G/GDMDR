@@ -6,9 +6,9 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="29"
-8-->C:\Users\TomiauT2G\IdeaProjects\GDMDR\app\src\main\AndroidManifest.xml
+8-->C:\Users\TomiauT2G\Documents\GitHub\GDMDR\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="34" />
-9-->C:\Users\TomiauT2G\IdeaProjects\GDMDR\app\src\main\AndroidManifest.xml
+9-->C:\Users\TomiauT2G\Documents\GitHub\GDMDR\app\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.CAMERA" /> <!-- Don't require camera, as this requires a rear camera. This allows it to work on the Nexus 7 -->
 11-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\fedd695ea3ff2a7c371452ad835e8d68\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:22:5-65
@@ -63,59 +63,59 @@
 36-->[androidx.core:core:1.9.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\48da4d468f697fb0fb5d56e4c7c822b9\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
 37
 38    <application
-38-->C:\Users\TomiauT2G\IdeaProjects\GDMDR\app\src\main\AndroidManifest.xml:5:5-32:19
+38-->C:\Users\TomiauT2G\Documents\GitHub\GDMDR\app\src\main\AndroidManifest.xml:5:5-32:19
 39        android:allowBackup="true"
-39-->C:\Users\TomiauT2G\IdeaProjects\GDMDR\app\src\main\AndroidManifest.xml:6:13-39
+39-->C:\Users\TomiauT2G\Documents\GitHub\GDMDR\app\src\main\AndroidManifest.xml:6:13-39
 40        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 40-->[androidx.core:core:1.9.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\48da4d468f697fb0fb5d56e4c7c822b9\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
 41        android:dataExtractionRules="@xml/data_extraction_rules"
-41-->C:\Users\TomiauT2G\IdeaProjects\GDMDR\app\src\main\AndroidManifest.xml:7:13-69
+41-->C:\Users\TomiauT2G\Documents\GitHub\GDMDR\app\src\main\AndroidManifest.xml:7:13-69
 42        android:debuggable="true"
 43        android:extractNativeLibs="false"
 44        android:fullBackupContent="@xml/backup_rules"
-44-->C:\Users\TomiauT2G\IdeaProjects\GDMDR\app\src\main\AndroidManifest.xml:8:13-58
+44-->C:\Users\TomiauT2G\Documents\GitHub\GDMDR\app\src\main\AndroidManifest.xml:8:13-58
 45        android:icon="@mipmap/ic_launcher"
-45-->C:\Users\TomiauT2G\IdeaProjects\GDMDR\app\src\main\AndroidManifest.xml:9:13-47
+45-->C:\Users\TomiauT2G\Documents\GitHub\GDMDR\app\src\main\AndroidManifest.xml:9:13-47
 46        android:label="@string/app_name"
-46-->C:\Users\TomiauT2G\IdeaProjects\GDMDR\app\src\main\AndroidManifest.xml:10:13-45
+46-->C:\Users\TomiauT2G\Documents\GitHub\GDMDR\app\src\main\AndroidManifest.xml:10:13-45
 47        android:supportsRtl="true"
-47-->C:\Users\TomiauT2G\IdeaProjects\GDMDR\app\src\main\AndroidManifest.xml:11:13-39
+47-->C:\Users\TomiauT2G\Documents\GitHub\GDMDR\app\src\main\AndroidManifest.xml:11:13-39
 48        android:testOnly="true"
 49        android:theme="@style/Theme.GDMDR" >
-49-->C:\Users\TomiauT2G\IdeaProjects\GDMDR\app\src\main\AndroidManifest.xml:12:13-47
+49-->C:\Users\TomiauT2G\Documents\GitHub\GDMDR\app\src\main\AndroidManifest.xml:12:13-47
 50        <activity
-50-->C:\Users\TomiauT2G\IdeaProjects\GDMDR\app\src\main\AndroidManifest.xml:14:9-16:43
-51            android:name="com.example.gdmdr.Menu1"
-51-->C:\Users\TomiauT2G\IdeaProjects\GDMDR\app\src\main\AndroidManifest.xml:15:17-38
+50-->C:\Users\TomiauT2G\Documents\GitHub\GDMDR\app\src\main\AndroidManifest.xml:14:9-16:43
+51            android:name="com.example.gdmdr.CarritoActivity"
+51-->C:\Users\TomiauT2G\Documents\GitHub\GDMDR\app\src\main\AndroidManifest.xml:15:17-48
 52            android:exported="false" />
-52-->C:\Users\TomiauT2G\IdeaProjects\GDMDR\app\src\main\AndroidManifest.xml:16:17-41
+52-->C:\Users\TomiauT2G\Documents\GitHub\GDMDR\app\src\main\AndroidManifest.xml:16:17-41
 53        <activity
-53-->C:\Users\TomiauT2G\IdeaProjects\GDMDR\app\src\main\AndroidManifest.xml:17:9-19:43
-54            android:name="com.example.gdmdr.MainActivity2"
-54-->C:\Users\TomiauT2G\IdeaProjects\GDMDR\app\src\main\AndroidManifest.xml:18:17-46
+53-->C:\Users\TomiauT2G\Documents\GitHub\GDMDR\app\src\main\AndroidManifest.xml:17:9-19:43
+54            android:name="com.example.gdmdr.Menu1"
+54-->C:\Users\TomiauT2G\Documents\GitHub\GDMDR\app\src\main\AndroidManifest.xml:18:17-38
 55            android:exported="false" />
-55-->C:\Users\TomiauT2G\IdeaProjects\GDMDR\app\src\main\AndroidManifest.xml:19:17-41
+55-->C:\Users\TomiauT2G\Documents\GitHub\GDMDR\app\src\main\AndroidManifest.xml:19:17-41
 56        <activity
-56-->C:\Users\TomiauT2G\IdeaProjects\GDMDR\app\src\main\AndroidManifest.xml:20:9-22:43
+56-->C:\Users\TomiauT2G\Documents\GitHub\GDMDR\app\src\main\AndroidManifest.xml:20:9-22:43
 57            android:name="com.example.gdmdr.QR"
-57-->C:\Users\TomiauT2G\IdeaProjects\GDMDR\app\src\main\AndroidManifest.xml:21:17-35
+57-->C:\Users\TomiauT2G\Documents\GitHub\GDMDR\app\src\main\AndroidManifest.xml:21:17-35
 58            android:exported="false" />
-58-->C:\Users\TomiauT2G\IdeaProjects\GDMDR\app\src\main\AndroidManifest.xml:22:17-41
+58-->C:\Users\TomiauT2G\Documents\GitHub\GDMDR\app\src\main\AndroidManifest.xml:22:17-41
 59        <activity
-59-->C:\Users\TomiauT2G\IdeaProjects\GDMDR\app\src\main\AndroidManifest.xml:23:9-31:20
+59-->C:\Users\TomiauT2G\Documents\GitHub\GDMDR\app\src\main\AndroidManifest.xml:23:9-31:20
 60            android:name="com.example.gdmdr.MainActivity"
-60-->C:\Users\TomiauT2G\IdeaProjects\GDMDR\app\src\main\AndroidManifest.xml:24:17-45
+60-->C:\Users\TomiauT2G\Documents\GitHub\GDMDR\app\src\main\AndroidManifest.xml:24:17-45
 61            android:exported="true" >
-61-->C:\Users\TomiauT2G\IdeaProjects\GDMDR\app\src\main\AndroidManifest.xml:25:17-40
+61-->C:\Users\TomiauT2G\Documents\GitHub\GDMDR\app\src\main\AndroidManifest.xml:25:17-40
 62            <intent-filter>
-62-->C:\Users\TomiauT2G\IdeaProjects\GDMDR\app\src\main\AndroidManifest.xml:26:13-30:29
+62-->C:\Users\TomiauT2G\Documents\GitHub\GDMDR\app\src\main\AndroidManifest.xml:26:13-30:29
 63                <action android:name="android.intent.action.MAIN" />
-63-->C:\Users\TomiauT2G\IdeaProjects\GDMDR\app\src\main\AndroidManifest.xml:27:17-68
-63-->C:\Users\TomiauT2G\IdeaProjects\GDMDR\app\src\main\AndroidManifest.xml:27:25-66
+63-->C:\Users\TomiauT2G\Documents\GitHub\GDMDR\app\src\main\AndroidManifest.xml:27:17-68
+63-->C:\Users\TomiauT2G\Documents\GitHub\GDMDR\app\src\main\AndroidManifest.xml:27:25-66
 64
 65                <category android:name="android.intent.category.LAUNCHER" />
-65-->C:\Users\TomiauT2G\IdeaProjects\GDMDR\app\src\main\AndroidManifest.xml:29:17-76
-65-->C:\Users\TomiauT2G\IdeaProjects\GDMDR\app\src\main\AndroidManifest.xml:29:27-74
+65-->C:\Users\TomiauT2G\Documents\GitHub\GDMDR\app\src\main\AndroidManifest.xml:29:17-76
+65-->C:\Users\TomiauT2G\Documents\GitHub\GDMDR\app\src\main\AndroidManifest.xml:29:27-74
 66            </intent-filter>
 67        </activity>
 68        <activity
