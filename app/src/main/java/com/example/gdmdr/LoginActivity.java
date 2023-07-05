@@ -73,14 +73,14 @@ public class LoginActivity extends AppCompatActivity {
     }
 
     private void loginAnonymous() {
-        startActivity(new Intent(LoginActivity.this, QR.class));
+        startActivity(new Intent(LoginActivity.this, MainActivity.class));
     }
 
     private void loginUser(String email, String password) {
         mAuth.signInWithEmailAndPassword(email, password)
                 .addOnCompleteListener(task -> {
                     if (task.isSuccessful()) {
-                        startActivity(new Intent(LoginActivity.this, QR.class));
+                        startActivity(new Intent(LoginActivity.this, MainActivity.class));
                         Toast.makeText(LoginActivity.this, "Bienvenido", Toast.LENGTH_SHORT).show();
                     } else {
                         Toast.makeText(LoginActivity.this, "Error al iniciar sesión", Toast.LENGTH_SHORT).show();
@@ -94,7 +94,7 @@ public class LoginActivity extends AppCompatActivity {
         super.onStart();
         FirebaseUser user = mAuth.getCurrentUser();
         if (user != null) {
-            startActivity(new Intent(LoginActivity.this, QR.class));
+            startActivity(new Intent(LoginActivity.this, MainActivity.class));
         }
     }
 

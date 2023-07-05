@@ -64,7 +64,7 @@ public class RegisterActivity extends AppCompatActivity {
 
                     mFirestore.collection("user").document(id).set(map).addOnSuccessListener(unused -> {
                         finish();
-                        startActivity(new Intent(RegisterActivity.this, QR.class));
+                        startActivity(new Intent(RegisterActivity.this, MainActivity.class));
                         Toast.makeText(RegisterActivity.this, "Usuario registrado con éxito", Toast.LENGTH_SHORT).show();
                     }).addOnFailureListener(e -> Toast.makeText(RegisterActivity.this, "Error al guardar", Toast.LENGTH_SHORT).show());
                 }

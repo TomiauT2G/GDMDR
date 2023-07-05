@@ -3239,15 +3239,16 @@ id browser_actions_menu_item_icon
 id browser_actions_menu_item_text
 id browser_actions_menu_items
 id browser_actions_menu_view
-id btn_add
-id btn_add_fragment
+id btnOption1
+id btnOption2
+id btnOption3
 id btn_anonymous
-id btn_close
 id btn_ingresar
 id btn_register
 id btn_registro
 id buttonBurger
 id buttonEnsalada
+id buttonGuardar
 id buttonPanel
 id buttonPasta
 id buttonPizza
@@ -3330,6 +3331,10 @@ id easeInOut
 id easeOut
 id east
 id edge
+id editTextBurger
+id editTextEnsalada
+id editTextPasta
+id editTextPizza
 id edit_query
 id elastic
 id embed
@@ -3399,7 +3404,6 @@ id light
 id line1
 id line3
 id linear
-id linearLayout
 id listMode
 id list_item
 id m3_side_sheet
@@ -3523,7 +3527,6 @@ id progress_horizontal
 id radio
 id ratio
 id rectangles
-id recyclerViewSingle
 id report_drawn
 id reverseSawtooth
 id right
@@ -3542,7 +3545,6 @@ id scrollIndicatorDown
 id scrollIndicatorUp
 id scrollView
 id scrollable
-id search
 id search_badge
 id search_bar
 id search_button
@@ -3800,6 +3802,7 @@ layout activity_carrito
 layout activity_login
 layout activity_main
 layout activity_menu1
+layout activity_menu_editor
 layout activity_qr
 layout activity_register
 layout browser_actions_context_menu_page

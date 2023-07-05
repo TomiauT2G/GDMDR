@@ -5,12 +5,9 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.LinearLayout;
-import android.widget.SearchView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
-import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.gdmdr.R;
@@ -23,33 +20,20 @@ public final class ActivityMainBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final Button btnAdd;
+  public final Button btnOption1;
 
   @NonNull
-  public final Button btnAddFragment;
+  public final Button btnOption2;
 
   @NonNull
-  public final Button btnClose;
+  public final Button btnOption3;
 
-  @NonNull
-  public final LinearLayout linearLayout;
-
-  @NonNull
-  public final RecyclerView recyclerViewSingle;
-
-  @NonNull
-  public final SearchView search;
-
-  private ActivityMainBinding(@NonNull ConstraintLayout rootView, @NonNull Button btnAdd,
-      @NonNull Button btnAddFragment, @NonNull Button btnClose, @NonNull LinearLayout linearLayout,
-      @NonNull RecyclerView recyclerViewSingle, @NonNull SearchView search) {
+  private ActivityMainBinding(@NonNull ConstraintLayout rootView, @NonNull Button btnOption1,
+      @NonNull Button btnOption2, @NonNull Button btnOption3) {
     this.rootView = rootView;
-    this.btnAdd = btnAdd;
-    this.btnAddFragment = btnAddFragment;
-    this.btnClose = btnClose;
-    this.linearLayout = linearLayout;
-    this.recyclerViewSingle = recyclerViewSingle;
-    this.search = search;
+    this.btnOption1 = btnOption1;
+    this.btnOption2 = btnOption2;
+    this.btnOption3 = btnOption3;
   }
 
   @Override
@@ -79,44 +63,26 @@ public final class ActivityMainBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.btn_add;
-      Button btnAdd = ViewBindings.findChildViewById(rootView, id);
-      if (btnAdd == null) {
+      id = R.id.btnOption1;
+      Button btnOption1 = ViewBindings.findChildViewById(rootView, id);
+      if (btnOption1 == null) {
         break missingId;
       }
 
-      id = R.id.btn_add_fragment;
-      Button btnAddFragment = ViewBindings.findChildViewById(rootView, id);
-      if (btnAddFragment == null) {
+      id = R.id.btnOption2;
+      Button btnOption2 = ViewBindings.findChildViewById(rootView, id);
+      if (btnOption2 == null) {
         break missingId;
       }
 
-      id = R.id.btn_close;
-      Button btnClose = ViewBindings.findChildViewById(rootView, id);
-      if (btnClose == null) {
+      id = R.id.btnOption3;
+      Button btnOption3 = ViewBindings.findChildViewById(rootView, id);
+      if (btnOption3 == null) {
         break missingId;
       }
 
-      id = R.id.linearLayout;
-      LinearLayout linearLayout = ViewBindings.findChildViewById(rootView, id);
-      if (linearLayout == null) {
-        break missingId;
-      }
-
-      id = R.id.recyclerViewSingle;
-      RecyclerView recyclerViewSingle = ViewBindings.findChildViewById(rootView, id);
-      if (recyclerViewSingle == null) {
-        break missingId;
-      }
-
-      id = R.id.search;
-      SearchView search = ViewBindings.findChildViewById(rootView, id);
-      if (search == null) {
-        break missingId;
-      }
-
-      return new ActivityMainBinding((ConstraintLayout) rootView, btnAdd, btnAddFragment, btnClose,
-          linearLayout, recyclerViewSingle, search);
+      return new ActivityMainBinding((ConstraintLayout) rootView, btnOption1, btnOption2,
+          btnOption3);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
