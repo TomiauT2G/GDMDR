@@ -5,10 +5,12 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.EditText;
+import android.widget.LinearLayout;
+import android.widget.SearchView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
+import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.gdmdr.R;
@@ -21,20 +23,33 @@ public final class ActivityMainBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final Button buttonLogin;
+  public final Button btnAdd;
 
   @NonNull
-  public final EditText editTextPassword;
+  public final Button btnAddFragment;
 
   @NonNull
-  public final EditText editTextUsername;
+  public final Button btnClose;
 
-  private ActivityMainBinding(@NonNull ConstraintLayout rootView, @NonNull Button buttonLogin,
-      @NonNull EditText editTextPassword, @NonNull EditText editTextUsername) {
+  @NonNull
+  public final LinearLayout linearLayout;
+
+  @NonNull
+  public final RecyclerView recyclerViewSingle;
+
+  @NonNull
+  public final SearchView search;
+
+  private ActivityMainBinding(@NonNull ConstraintLayout rootView, @NonNull Button btnAdd,
+      @NonNull Button btnAddFragment, @NonNull Button btnClose, @NonNull LinearLayout linearLayout,
+      @NonNull RecyclerView recyclerViewSingle, @NonNull SearchView search) {
     this.rootView = rootView;
-    this.buttonLogin = buttonLogin;
-    this.editTextPassword = editTextPassword;
-    this.editTextUsername = editTextUsername;
+    this.btnAdd = btnAdd;
+    this.btnAddFragment = btnAddFragment;
+    this.btnClose = btnClose;
+    this.linearLayout = linearLayout;
+    this.recyclerViewSingle = recyclerViewSingle;
+    this.search = search;
   }
 
   @Override
@@ -64,26 +79,44 @@ public final class ActivityMainBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.buttonLogin;
-      Button buttonLogin = ViewBindings.findChildViewById(rootView, id);
-      if (buttonLogin == null) {
+      id = R.id.btn_add;
+      Button btnAdd = ViewBindings.findChildViewById(rootView, id);
+      if (btnAdd == null) {
         break missingId;
       }
 
-      id = R.id.editTextPassword;
-      EditText editTextPassword = ViewBindings.findChildViewById(rootView, id);
-      if (editTextPassword == null) {
+      id = R.id.btn_add_fragment;
+      Button btnAddFragment = ViewBindings.findChildViewById(rootView, id);
+      if (btnAddFragment == null) {
         break missingId;
       }
 
-      id = R.id.editTextUsername;
-      EditText editTextUsername = ViewBindings.findChildViewById(rootView, id);
-      if (editTextUsername == null) {
+      id = R.id.btn_close;
+      Button btnClose = ViewBindings.findChildViewById(rootView, id);
+      if (btnClose == null) {
         break missingId;
       }
 
-      return new ActivityMainBinding((ConstraintLayout) rootView, buttonLogin, editTextPassword,
-          editTextUsername);
+      id = R.id.linearLayout;
+      LinearLayout linearLayout = ViewBindings.findChildViewById(rootView, id);
+      if (linearLayout == null) {
+        break missingId;
+      }
+
+      id = R.id.recyclerViewSingle;
+      RecyclerView recyclerViewSingle = ViewBindings.findChildViewById(rootView, id);
+      if (recyclerViewSingle == null) {
+        break missingId;
+      }
+
+      id = R.id.search;
+      SearchView search = ViewBindings.findChildViewById(rootView, id);
+      if (search == null) {
+        break missingId;
+      }
+
+      return new ActivityMainBinding((ConstraintLayout) rootView, btnAdd, btnAddFragment, btnClose,
+          linearLayout, recyclerViewSingle, search);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

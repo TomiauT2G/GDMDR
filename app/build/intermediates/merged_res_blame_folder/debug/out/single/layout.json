@@ -1,22 +1,30 @@
 [
     {
-        "merged": "C:\\Users\\TomiauT2G\\.gradle\\daemon\\7.5\\com.example.gdmdr.app-mergeDebugResources-29:\\layout\\activity_menu1.xml",
-        "source": "C:\\Users\\TomiauT2G\\.gradle\\daemon\\7.5\\com.example.gdmdr.app-main-32:\\layout\\activity_menu1.xml"
+        "merged": "C:\\Users\\TomiauT2G\\.gradle\\daemon\\7.5\\com.example.gdmdr.app-mergeDebugResources-39:\\layout\\activity_boletas.xml",
+        "source": "C:\\Users\\TomiauT2G\\.gradle\\daemon\\7.5\\com.example.gdmdr.app-main-42:\\layout\\activity_boletas.xml"
     },
     {
-        "merged": "C:\\Users\\TomiauT2G\\.gradle\\daemon\\7.5\\com.example.gdmdr.app-mergeDebugResources-29:\\layout\\activity_qr.xml",
-        "source": "C:\\Users\\TomiauT2G\\.gradle\\daemon\\7.5\\com.example.gdmdr.app-main-32:\\layout\\activity_qr.xml"
+        "merged": "C:\\Users\\TomiauT2G\\.gradle\\daemon\\7.5\\com.example.gdmdr.app-mergeDebugResources-39:\\layout\\activity_qr.xml",
+        "source": "C:\\Users\\TomiauT2G\\.gradle\\daemon\\7.5\\com.example.gdmdr.app-main-42:\\layout\\activity_qr.xml"
     },
     {
-        "merged": "C:\\Users\\TomiauT2G\\.gradle\\daemon\\7.5\\com.example.gdmdr.app-mergeDebugResources-29:\\layout\\activity_main.xml",
-        "source": "C:\\Users\\TomiauT2G\\.gradle\\daemon\\7.5\\com.example.gdmdr.app-main-32:\\layout\\activity_main.xml"
+        "merged": "C:\\Users\\TomiauT2G\\.gradle\\daemon\\7.5\\com.example.gdmdr.app-mergeDebugResources-39:\\layout\\activity_login.xml",
+        "source": "C:\\Users\\TomiauT2G\\.gradle\\daemon\\7.5\\com.example.gdmdr.app-main-42:\\layout\\activity_login.xml"
     },
     {
-        "merged": "com.example.gdmdr.app-mergeDebugResources-29:/layout/activity_carrito.xml",
-        "source": "com.example.gdmdr.app-main-32:/layout/activity_carrito.xml"
+        "merged": "C:\\Users\\TomiauT2G\\.gradle\\daemon\\7.5\\com.example.gdmdr.app-mergeDebugResources-39:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\TomiauT2G\\.gradle\\daemon\\7.5\\com.example.gdmdr.app-main-42:\\layout\\activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\TomiauT2G\\.gradle\\daemon\\7.5\\com.example.gdmdr.app-mergeDebugResources-29:\\layout\\activity_carrito.xml",
-        "source": "C:\\Users\\TomiauT2G\\.gradle\\daemon\\7.5\\com.example.gdmdr.app-main-32:\\layout\\activity_carrito.xml"
+        "merged": "C:\\Users\\TomiauT2G\\.gradle\\daemon\\7.5\\com.example.gdmdr.app-mergeDebugResources-39:\\layout\\activity_menu1.xml",
+        "source": "C:\\Users\\TomiauT2G\\.gradle\\daemon\\7.5\\com.example.gdmdr.app-main-42:\\layout\\activity_menu1.xml"
+    },
+    {
+        "merged": "C:\\Users\\TomiauT2G\\.gradle\\daemon\\7.5\\com.example.gdmdr.app-mergeDebugResources-39:\\layout\\activity_carrito.xml",
+        "source": "C:\\Users\\TomiauT2G\\.gradle\\daemon\\7.5\\com.example.gdmdr.app-main-42:\\layout\\activity_carrito.xml"
+    },
+    {
+        "merged": "com.example.gdmdr.app-mergeDebugResources-39:/layout/activity_register.xml",
+        "source": "com.example.gdmdr.app-main-42:/layout/activity_register.xml"
     }
 ]

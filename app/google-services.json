@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1072019569910",
+    "project_id": "gdmdr-f4329",
+    "storage_bucket": "gdmdr-f4329.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1072019569910:android:58b71510a180c208e500d7",
+        "android_client_info": {
+          "package_name": "com.example.gdmdr"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1072019569910-9fa7revgasg85ja3ivde1fhtd5o6peo6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6dZGdmhuALG6yDE3RfYwmP13PPWggO9M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1072019569910-3p9h68j68mv3sdkne6q7n1k6bvpi7ng0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

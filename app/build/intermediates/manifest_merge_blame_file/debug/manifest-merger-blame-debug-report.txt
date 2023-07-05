@@ -6,154 +6,400 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="29"
-8-->C:\Users\TomiauT2G\Documents\GitHub\GDMDR\app\src\main\AndroidManifest.xml
-9        android:targetSdkVersion="34" />
-9-->C:\Users\TomiauT2G\Documents\GitHub\GDMDR\app\src\main\AndroidManifest.xml
+8-->C:\Users\TomiauT2G\Desktop\GDMDR\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->C:\Users\TomiauT2G\Desktop\GDMDR\app\src\main\AndroidManifest.xml
 10
-11    <uses-permission android:name="android.permission.CAMERA" /> <!-- Don't require camera, as this requires a rear camera. This allows it to work on the Nexus 7 -->
-11-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\fedd695ea3ff2a7c371452ad835e8d68\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:22:5-65
-11-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\fedd695ea3ff2a7c371452ad835e8d68\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:22:22-62
-12    <uses-feature
-12-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\fedd695ea3ff2a7c371452ad835e8d68\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:25:5-27:36
-13        android:name="android.hardware.camera"
-13-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\fedd695ea3ff2a7c371452ad835e8d68\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:26:9-47
-14        android:required="false" />
-14-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\fedd695ea3ff2a7c371452ad835e8d68\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:27:9-33
-15    <uses-feature
-15-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\fedd695ea3ff2a7c371452ad835e8d68\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:28:5-30:36
-16        android:name="android.hardware.camera.front"
-16-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\fedd695ea3ff2a7c371452ad835e8d68\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:29:9-53
-17        android:required="false" /> <!-- TODO replace above two with next line after Android 4.2 -->
-17-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\fedd695ea3ff2a7c371452ad835e8d68\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:30:9-33
-18    <!-- <uses-feature android:name="android.hardware.camera.any"/> -->
+11    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+11-->C:\Users\TomiauT2G\Desktop\GDMDR\app\src\main\AndroidManifest.xml:5:5-80
+11-->C:\Users\TomiauT2G\Desktop\GDMDR\app\src\main\AndroidManifest.xml:5:22-78
+12    <uses-permission android:name="android.permission.INTERNET" /> <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+12-->[com.firebaseui:firebase-ui-firestore:8.0.2] C:\Users\TomiauT2G\.gradle\caches\transforms-3\8cc35075378c01cf0345634720865f6b\transformed\firebase-ui-firestore-8.0.2\AndroidManifest.xml:9:5-67
+12-->[com.firebaseui:firebase-ui-firestore:8.0.2] C:\Users\TomiauT2G\.gradle\caches\transforms-3\8cc35075378c01cf0345634720865f6b\transformed\firebase-ui-firestore-8.0.2\AndroidManifest.xml:9:22-64
+13    <!-- <uses-sdk android:minSdkVersion="14" /> -->
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->[com.google.firebase:firebase-firestore:24.6.1] C:\Users\TomiauT2G\.gradle\caches\transforms-3\fb97765b16bc2bbf2e22180dc60d1e60\transformed\firebase-firestore-24.6.1\AndroidManifest.xml:12:5-79
+14-->[com.google.firebase:firebase-firestore:24.6.1] C:\Users\TomiauT2G\.gradle\caches\transforms-3\fb97765b16bc2bbf2e22180dc60d1e60\transformed\firebase-firestore-24.6.1\AndroidManifest.xml:12:22-76
+15    <uses-permission android:name="android.permission.CAMERA" /> <!-- Don't require camera, as this requires a rear camera. This allows it to work on the Nexus 7 -->
+15-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\b96508226b0f02ae5f231f9caf9ee5e5\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:22:5-65
+15-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\b96508226b0f02ae5f231f9caf9ee5e5\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:22:22-62
+16    <uses-feature
+16-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\b96508226b0f02ae5f231f9caf9ee5e5\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:25:5-27:36
+17        android:name="android.hardware.camera"
+17-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\b96508226b0f02ae5f231f9caf9ee5e5\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:26:9-47
+18        android:required="false" />
+18-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\b96508226b0f02ae5f231f9caf9ee5e5\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:27:9-33
 19    <uses-feature
-19-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\fedd695ea3ff2a7c371452ad835e8d68\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:33:5-35:36
-20        android:name="android.hardware.camera.autofocus"
-20-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\fedd695ea3ff2a7c371452ad835e8d68\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:34:9-57
-21        android:required="false" />
-21-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\fedd695ea3ff2a7c371452ad835e8d68\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:35:9-33
-22    <uses-feature
-22-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\fedd695ea3ff2a7c371452ad835e8d68\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:36:5-38:36
-23        android:name="android.hardware.camera.flash"
-23-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\fedd695ea3ff2a7c371452ad835e8d68\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:37:9-53
-24        android:required="false" />
-24-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\fedd695ea3ff2a7c371452ad835e8d68\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:38:9-33
-25    <uses-feature
-25-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\fedd695ea3ff2a7c371452ad835e8d68\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:39:5-41:36
-26        android:name="android.hardware.screen.landscape"
-26-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\fedd695ea3ff2a7c371452ad835e8d68\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:40:9-57
-27        android:required="false" />
-27-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\fedd695ea3ff2a7c371452ad835e8d68\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:41:9-33
-28    <uses-feature
-28-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\fedd695ea3ff2a7c371452ad835e8d68\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:42:5-44:36
-29        android:name="android.hardware.wifi"
-29-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\fedd695ea3ff2a7c371452ad835e8d68\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:43:9-45
-30        android:required="false" />
-30-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\fedd695ea3ff2a7c371452ad835e8d68\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:44:9-33
-31
-32    <permission
-32-->[androidx.core:core:1.9.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\48da4d468f697fb0fb5d56e4c7c822b9\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
-33        android:name="com.example.gdmdr.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-33-->[androidx.core:core:1.9.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\48da4d468f697fb0fb5d56e4c7c822b9\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
-34        android:protectionLevel="signature" />
-34-->[androidx.core:core:1.9.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\48da4d468f697fb0fb5d56e4c7c822b9\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+19-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\b96508226b0f02ae5f231f9caf9ee5e5\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:28:5-30:36
+20        android:name="android.hardware.camera.front"
+20-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\b96508226b0f02ae5f231f9caf9ee5e5\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:29:9-53
+21        android:required="false" /> <!-- TODO replace above two with next line after Android 4.2 -->
+21-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\b96508226b0f02ae5f231f9caf9ee5e5\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:30:9-33
+22    <!-- <uses-feature android:name="android.hardware.camera.any"/> -->
+23    <uses-feature
+23-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\b96508226b0f02ae5f231f9caf9ee5e5\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:33:5-35:36
+24        android:name="android.hardware.camera.autofocus"
+24-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\b96508226b0f02ae5f231f9caf9ee5e5\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:34:9-57
+25        android:required="false" />
+25-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\b96508226b0f02ae5f231f9caf9ee5e5\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:35:9-33
+26    <uses-feature
+26-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\b96508226b0f02ae5f231f9caf9ee5e5\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:36:5-38:36
+27        android:name="android.hardware.camera.flash"
+27-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\b96508226b0f02ae5f231f9caf9ee5e5\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:37:9-53
+28        android:required="false" />
+28-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\b96508226b0f02ae5f231f9caf9ee5e5\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:38:9-33
+29    <uses-feature
+29-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\b96508226b0f02ae5f231f9caf9ee5e5\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:39:5-41:36
+30        android:name="android.hardware.screen.landscape"
+30-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\b96508226b0f02ae5f231f9caf9ee5e5\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:40:9-57
+31        android:required="false" />
+31-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\b96508226b0f02ae5f231f9caf9ee5e5\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:41:9-33
+32    <uses-feature
+32-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\b96508226b0f02ae5f231f9caf9ee5e5\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:42:5-44:36
+33        android:name="android.hardware.wifi"
+33-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\b96508226b0f02ae5f231f9caf9ee5e5\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:43:9-45
+34        android:required="false" />
+34-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\b96508226b0f02ae5f231f9caf9ee5e5\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:44:9-33
 35
-36    <uses-permission android:name="com.example.gdmdr.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-36-->[androidx.core:core:1.9.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\48da4d468f697fb0fb5d56e4c7c822b9\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
-36-->[androidx.core:core:1.9.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\48da4d468f697fb0fb5d56e4c7c822b9\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
-37
-38    <application
-38-->C:\Users\TomiauT2G\Documents\GitHub\GDMDR\app\src\main\AndroidManifest.xml:5:5-32:19
-39        android:allowBackup="true"
-39-->C:\Users\TomiauT2G\Documents\GitHub\GDMDR\app\src\main\AndroidManifest.xml:6:13-39
-40        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-40-->[androidx.core:core:1.9.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\48da4d468f697fb0fb5d56e4c7c822b9\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
-41        android:dataExtractionRules="@xml/data_extraction_rules"
-41-->C:\Users\TomiauT2G\Documents\GitHub\GDMDR\app\src\main\AndroidManifest.xml:7:13-69
-42        android:debuggable="true"
-43        android:extractNativeLibs="false"
-44        android:fullBackupContent="@xml/backup_rules"
-44-->C:\Users\TomiauT2G\Documents\GitHub\GDMDR\app\src\main\AndroidManifest.xml:8:13-58
-45        android:icon="@mipmap/ic_launcher"
-45-->C:\Users\TomiauT2G\Documents\GitHub\GDMDR\app\src\main\AndroidManifest.xml:9:13-47
-46        android:label="@string/app_name"
-46-->C:\Users\TomiauT2G\Documents\GitHub\GDMDR\app\src\main\AndroidManifest.xml:10:13-45
-47        android:supportsRtl="true"
-47-->C:\Users\TomiauT2G\Documents\GitHub\GDMDR\app\src\main\AndroidManifest.xml:11:13-39
-48        android:testOnly="true"
-49        android:theme="@style/Theme.GDMDR" >
-49-->C:\Users\TomiauT2G\Documents\GitHub\GDMDR\app\src\main\AndroidManifest.xml:12:13-47
-50        <activity
-50-->C:\Users\TomiauT2G\Documents\GitHub\GDMDR\app\src\main\AndroidManifest.xml:14:9-16:43
-51            android:name="com.example.gdmdr.CarritoActivity"
-51-->C:\Users\TomiauT2G\Documents\GitHub\GDMDR\app\src\main\AndroidManifest.xml:15:17-48
-52            android:exported="false" />
-52-->C:\Users\TomiauT2G\Documents\GitHub\GDMDR\app\src\main\AndroidManifest.xml:16:17-41
-53        <activity
-53-->C:\Users\TomiauT2G\Documents\GitHub\GDMDR\app\src\main\AndroidManifest.xml:17:9-19:43
-54            android:name="com.example.gdmdr.Menu1"
-54-->C:\Users\TomiauT2G\Documents\GitHub\GDMDR\app\src\main\AndroidManifest.xml:18:17-38
-55            android:exported="false" />
-55-->C:\Users\TomiauT2G\Documents\GitHub\GDMDR\app\src\main\AndroidManifest.xml:19:17-41
-56        <activity
-56-->C:\Users\TomiauT2G\Documents\GitHub\GDMDR\app\src\main\AndroidManifest.xml:20:9-22:43
-57            android:name="com.example.gdmdr.QR"
-57-->C:\Users\TomiauT2G\Documents\GitHub\GDMDR\app\src\main\AndroidManifest.xml:21:17-35
-58            android:exported="false" />
-58-->C:\Users\TomiauT2G\Documents\GitHub\GDMDR\app\src\main\AndroidManifest.xml:22:17-41
-59        <activity
-59-->C:\Users\TomiauT2G\Documents\GitHub\GDMDR\app\src\main\AndroidManifest.xml:23:9-31:20
-60            android:name="com.example.gdmdr.MainActivity"
-60-->C:\Users\TomiauT2G\Documents\GitHub\GDMDR\app\src\main\AndroidManifest.xml:24:17-45
-61            android:exported="true" >
-61-->C:\Users\TomiauT2G\Documents\GitHub\GDMDR\app\src\main\AndroidManifest.xml:25:17-40
-62            <intent-filter>
-62-->C:\Users\TomiauT2G\Documents\GitHub\GDMDR\app\src\main\AndroidManifest.xml:26:13-30:29
-63                <action android:name="android.intent.action.MAIN" />
-63-->C:\Users\TomiauT2G\Documents\GitHub\GDMDR\app\src\main\AndroidManifest.xml:27:17-68
-63-->C:\Users\TomiauT2G\Documents\GitHub\GDMDR\app\src\main\AndroidManifest.xml:27:25-66
-64
-65                <category android:name="android.intent.category.LAUNCHER" />
-65-->C:\Users\TomiauT2G\Documents\GitHub\GDMDR\app\src\main\AndroidManifest.xml:29:17-76
-65-->C:\Users\TomiauT2G\Documents\GitHub\GDMDR\app\src\main\AndroidManifest.xml:29:27-74
-66            </intent-filter>
-67        </activity>
-68        <activity
-68-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\fedd695ea3ff2a7c371452ad835e8d68\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:47:9-53:63
-69            android:name="com.journeyapps.barcodescanner.CaptureActivity"
-69-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\fedd695ea3ff2a7c371452ad835e8d68\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:48:13-74
-70            android:clearTaskOnLaunch="true"
-70-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\fedd695ea3ff2a7c371452ad835e8d68\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:49:13-45
-71            android:screenOrientation="sensorLandscape"
-71-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\fedd695ea3ff2a7c371452ad835e8d68\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:50:13-56
-72            android:stateNotNeeded="true"
-72-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\fedd695ea3ff2a7c371452ad835e8d68\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:51:13-42
-73            android:theme="@style/zxing_CaptureTheme"
-73-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\fedd695ea3ff2a7c371452ad835e8d68\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:52:13-54
-74            android:windowSoftInputMode="stateAlwaysHidden" />
-74-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\fedd695ea3ff2a7c371452ad835e8d68\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:53:13-60
+36    <uses-permission android:name="android.permission.WAKE_LOCK" />
+36-->[com.google.android.gms:play-services-measurement-api:21.3.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\c362170e05790c8c3f8a514eb791a004\transformed\play-services-measurement-api-21.3.0\AndroidManifest.xml:24:5-68
+36-->[com.google.android.gms:play-services-measurement-api:21.3.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\c362170e05790c8c3f8a514eb791a004\transformed\play-services-measurement-api-21.3.0\AndroidManifest.xml:24:22-65
+37    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+37-->[com.google.android.gms:play-services-measurement-api:21.3.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\c362170e05790c8c3f8a514eb791a004\transformed\play-services-measurement-api-21.3.0\AndroidManifest.xml:25:5-79
+37-->[com.google.android.gms:play-services-measurement-api:21.3.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\c362170e05790c8c3f8a514eb791a004\transformed\play-services-measurement-api-21.3.0\AndroidManifest.xml:25:22-76
+38    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+38-->[com.google.android.gms:play-services-measurement:21.3.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\c27b7025f1ee7fab4a46168760c46488\transformed\play-services-measurement-21.3.0\AndroidManifest.xml:26:5-110
+38-->[com.google.android.gms:play-services-measurement:21.3.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\c27b7025f1ee7fab4a46168760c46488\transformed\play-services-measurement-21.3.0\AndroidManifest.xml:26:22-107
+39
+40    <permission
+40-->[androidx.core:core:1.9.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\f9229443f0b933756a1b881cd7bdf67f\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+41        android:name="com.example.gdmdr.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+41-->[androidx.core:core:1.9.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\f9229443f0b933756a1b881cd7bdf67f\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+42        android:protectionLevel="signature" />
+42-->[androidx.core:core:1.9.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\f9229443f0b933756a1b881cd7bdf67f\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+43
+44    <uses-permission android:name="com.example.gdmdr.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+44-->[androidx.core:core:1.9.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\f9229443f0b933756a1b881cd7bdf67f\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+44-->[androidx.core:core:1.9.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\f9229443f0b933756a1b881cd7bdf67f\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+45
+46    <application
+46-->C:\Users\TomiauT2G\Desktop\GDMDR\app\src\main\AndroidManifest.xml:7:5-38:19
+47        android:allowBackup="true"
+47-->C:\Users\TomiauT2G\Desktop\GDMDR\app\src\main\AndroidManifest.xml:8:13-39
+48        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+48-->[androidx.core:core:1.9.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\f9229443f0b933756a1b881cd7bdf67f\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+49        android:dataExtractionRules="@xml/data_extraction_rules"
+49-->C:\Users\TomiauT2G\Desktop\GDMDR\app\src\main\AndroidManifest.xml:9:13-69
+50        android:debuggable="true"
+51        android:extractNativeLibs="false"
+52        android:fullBackupContent="@xml/backup_rules"
+52-->C:\Users\TomiauT2G\Desktop\GDMDR\app\src\main\AndroidManifest.xml:10:13-58
+53        android:icon="@mipmap/ic_launcher"
+53-->C:\Users\TomiauT2G\Desktop\GDMDR\app\src\main\AndroidManifest.xml:11:13-47
+54        android:label="@string/app_name"
+54-->C:\Users\TomiauT2G\Desktop\GDMDR\app\src\main\AndroidManifest.xml:12:13-45
+55        android:supportsRtl="true"
+55-->C:\Users\TomiauT2G\Desktop\GDMDR\app\src\main\AndroidManifest.xml:13:13-39
+56        android:testOnly="true"
+57        android:theme="@style/Theme.GDMDR" >
+57-->C:\Users\TomiauT2G\Desktop\GDMDR\app\src\main\AndroidManifest.xml:14:13-47
+58        <activity
+58-->C:\Users\TomiauT2G\Desktop\GDMDR\app\src\main\AndroidManifest.xml:17:9-19:42
+59            android:name="com.example.gdmdr.MainActivity"
+59-->C:\Users\TomiauT2G\Desktop\GDMDR\app\src\main\AndroidManifest.xml:18:17-45
+60            android:exported="true" />
+60-->C:\Users\TomiauT2G\Desktop\GDMDR\app\src\main\AndroidManifest.xml:19:17-40
+61        <activity
+61-->C:\Users\TomiauT2G\Desktop\GDMDR\app\src\main\AndroidManifest.xml:20:9-22:42
+62            android:name="com.example.gdmdr.CarritoActivity"
+62-->C:\Users\TomiauT2G\Desktop\GDMDR\app\src\main\AndroidManifest.xml:21:17-48
+63            android:exported="true" />
+63-->C:\Users\TomiauT2G\Desktop\GDMDR\app\src\main\AndroidManifest.xml:22:17-40
+64        <activity
+64-->C:\Users\TomiauT2G\Desktop\GDMDR\app\src\main\AndroidManifest.xml:23:9-25:42
+65            android:name="com.example.gdmdr.Menu1"
+65-->C:\Users\TomiauT2G\Desktop\GDMDR\app\src\main\AndroidManifest.xml:24:17-38
+66            android:exported="true" />
+66-->C:\Users\TomiauT2G\Desktop\GDMDR\app\src\main\AndroidManifest.xml:25:17-40
+67        <activity
+67-->C:\Users\TomiauT2G\Desktop\GDMDR\app\src\main\AndroidManifest.xml:26:9-28:42
+68            android:name="com.example.gdmdr.QR"
+68-->C:\Users\TomiauT2G\Desktop\GDMDR\app\src\main\AndroidManifest.xml:27:17-35
+69            android:exported="true" />
+69-->C:\Users\TomiauT2G\Desktop\GDMDR\app\src\main\AndroidManifest.xml:28:17-40
+70        <activity
+70-->C:\Users\TomiauT2G\Desktop\GDMDR\app\src\main\AndroidManifest.xml:29:9-37:20
+71            android:name="com.example.gdmdr.LoginActivity"
+71-->C:\Users\TomiauT2G\Desktop\GDMDR\app\src\main\AndroidManifest.xml:30:17-46
+72            android:exported="true" >
+72-->C:\Users\TomiauT2G\Desktop\GDMDR\app\src\main\AndroidManifest.xml:31:17-40
+73            <intent-filter>
+73-->C:\Users\TomiauT2G\Desktop\GDMDR\app\src\main\AndroidManifest.xml:32:13-36:29
+74                <action android:name="android.intent.action.MAIN" />
+74-->C:\Users\TomiauT2G\Desktop\GDMDR\app\src\main\AndroidManifest.xml:33:17-69
+74-->C:\Users\TomiauT2G\Desktop\GDMDR\app\src\main\AndroidManifest.xml:33:25-66
 75
-76        <provider
-76-->[androidx.emoji2:emoji2:1.2.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\b534eca45ae0368be30899d5007a440e\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
-77            android:name="androidx.startup.InitializationProvider"
-77-->[androidx.emoji2:emoji2:1.2.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\b534eca45ae0368be30899d5007a440e\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
-78            android:authorities="com.example.gdmdr.androidx-startup"
-78-->[androidx.emoji2:emoji2:1.2.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\b534eca45ae0368be30899d5007a440e\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
-79            android:exported="false" >
-79-->[androidx.emoji2:emoji2:1.2.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\b534eca45ae0368be30899d5007a440e\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
-80            <meta-data
-80-->[androidx.emoji2:emoji2:1.2.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\b534eca45ae0368be30899d5007a440e\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
-81                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-81-->[androidx.emoji2:emoji2:1.2.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\b534eca45ae0368be30899d5007a440e\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
-82                android:value="androidx.startup" />
-82-->[androidx.emoji2:emoji2:1.2.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\b534eca45ae0368be30899d5007a440e\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
-83            <meta-data
-83-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\TomiauT2G\.gradle\caches\transforms-3\b0761d22b5c86c7f873b7a426ffce717\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
-84                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-84-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\TomiauT2G\.gradle\caches\transforms-3\b0761d22b5c86c7f873b7a426ffce717\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
-85                android:value="androidx.startup" />
-85-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\TomiauT2G\.gradle\caches\transforms-3\b0761d22b5c86c7f873b7a426ffce717\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
-86        </provider>
-87    </application>
-88
-89</manifest>
+76                <category android:name="android.intent.category.LAUNCHER" />
+76-->C:\Users\TomiauT2G\Desktop\GDMDR\app\src\main\AndroidManifest.xml:35:17-77
+76-->C:\Users\TomiauT2G\Desktop\GDMDR\app\src\main\AndroidManifest.xml:35:27-74
+77            </intent-filter>
+78        </activity>
+79
+80        <service
+80-->[com.google.firebase:firebase-firestore:24.6.1] C:\Users\TomiauT2G\.gradle\caches\transforms-3\fb97765b16bc2bbf2e22180dc60d1e60\transformed\firebase-firestore-24.6.1\AndroidManifest.xml:16:9-22:19
+81            android:name="com.google.firebase.components.ComponentDiscoveryService"
+81-->[com.google.firebase:firebase-firestore:24.6.1] C:\Users\TomiauT2G\.gradle\caches\transforms-3\fb97765b16bc2bbf2e22180dc60d1e60\transformed\firebase-firestore-24.6.1\AndroidManifest.xml:17:13-84
+82            android:directBootAware="true"
+82-->[com.google.firebase:firebase-common:20.3.2] C:\Users\TomiauT2G\.gradle\caches\transforms-3\470e89430be8c1af1d408948c2baf81f\transformed\firebase-common-20.3.2\AndroidManifest.xml:34:13-43
+83            android:exported="false" >
+83-->[com.google.firebase:firebase-firestore:24.6.1] C:\Users\TomiauT2G\.gradle\caches\transforms-3\fb97765b16bc2bbf2e22180dc60d1e60\transformed\firebase-firestore-24.6.1\AndroidManifest.xml:18:13-37
+84            <meta-data
+84-->[com.google.firebase:firebase-firestore:24.6.1] C:\Users\TomiauT2G\.gradle\caches\transforms-3\fb97765b16bc2bbf2e22180dc60d1e60\transformed\firebase-firestore-24.6.1\AndroidManifest.xml:19:13-21:85
+85                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+85-->[com.google.firebase:firebase-firestore:24.6.1] C:\Users\TomiauT2G\.gradle\caches\transforms-3\fb97765b16bc2bbf2e22180dc60d1e60\transformed\firebase-firestore-24.6.1\AndroidManifest.xml:20:17-111
+86                android:value="com.google.firebase.components.ComponentRegistrar" />
+86-->[com.google.firebase:firebase-firestore:24.6.1] C:\Users\TomiauT2G\.gradle\caches\transforms-3\fb97765b16bc2bbf2e22180dc60d1e60\transformed\firebase-firestore-24.6.1\AndroidManifest.xml:21:17-82
+87            <meta-data
+87-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\b4a0681192e9387eb67a467b77354b23\transformed\firebase-auth-22.0.0\AndroidManifest.xml:69:13-71:85
+88                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+88-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\b4a0681192e9387eb67a467b77354b23\transformed\firebase-auth-22.0.0\AndroidManifest.xml:70:17-109
+89                android:value="com.google.firebase.components.ComponentRegistrar" />
+89-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\b4a0681192e9387eb67a467b77354b23\transformed\firebase-auth-22.0.0\AndroidManifest.xml:71:17-82
+90            <meta-data
+90-->[com.google.firebase:firebase-storage:20.2.1] C:\Users\TomiauT2G\.gradle\caches\transforms-3\f9929ab3cc8824c700d27ffa6d78414d\transformed\firebase-storage-20.2.1\AndroidManifest.xml:32:13-34:85
+91                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+91-->[com.google.firebase:firebase-storage:20.2.1] C:\Users\TomiauT2G\.gradle\caches\transforms-3\f9929ab3cc8824c700d27ffa6d78414d\transformed\firebase-storage-20.2.1\AndroidManifest.xml:33:17-107
+92                android:value="com.google.firebase.components.ComponentRegistrar" />
+92-->[com.google.firebase:firebase-storage:20.2.1] C:\Users\TomiauT2G\.gradle\caches\transforms-3\f9929ab3cc8824c700d27ffa6d78414d\transformed\firebase-storage-20.2.1\AndroidManifest.xml:34:17-82
+93            <meta-data
+93-->[com.google.android.gms:play-services-measurement-api:21.3.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\c362170e05790c8c3f8a514eb791a004\transformed\play-services-measurement-api-21.3.0\AndroidManifest.xml:31:13-33:85
+94                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+94-->[com.google.android.gms:play-services-measurement-api:21.3.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\c362170e05790c8c3f8a514eb791a004\transformed\play-services-measurement-api-21.3.0\AndroidManifest.xml:32:17-139
+95                android:value="com.google.firebase.components.ComponentRegistrar" />
+95-->[com.google.android.gms:play-services-measurement-api:21.3.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\c362170e05790c8c3f8a514eb791a004\transformed\play-services-measurement-api-21.3.0\AndroidManifest.xml:33:17-82
+96            <meta-data
+96-->[com.google.firebase:firebase-installations:17.1.3] C:\Users\TomiauT2G\.gradle\caches\transforms-3\2c8b0b90b61513682aa49b166ab53074\transformed\firebase-installations-17.1.3\AndroidManifest.xml:17:13-19:85
+97                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+97-->[com.google.firebase:firebase-installations:17.1.3] C:\Users\TomiauT2G\.gradle\caches\transforms-3\2c8b0b90b61513682aa49b166ab53074\transformed\firebase-installations-17.1.3\AndroidManifest.xml:18:17-127
+98                android:value="com.google.firebase.components.ComponentRegistrar" />
+98-->[com.google.firebase:firebase-installations:17.1.3] C:\Users\TomiauT2G\.gradle\caches\transforms-3\2c8b0b90b61513682aa49b166ab53074\transformed\firebase-installations-17.1.3\AndroidManifest.xml:19:17-82
+99        </service>
+100
+101        <activity
+101-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\b4a0681192e9387eb67a467b77354b23\transformed\firebase-auth-22.0.0\AndroidManifest.xml:29:9-46:20
+102            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+102-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\b4a0681192e9387eb67a467b77354b23\transformed\firebase-auth-22.0.0\AndroidManifest.xml:30:13-80
+103            android:excludeFromRecents="true"
+103-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\b4a0681192e9387eb67a467b77354b23\transformed\firebase-auth-22.0.0\AndroidManifest.xml:31:13-46
+104            android:exported="true"
+104-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\b4a0681192e9387eb67a467b77354b23\transformed\firebase-auth-22.0.0\AndroidManifest.xml:32:13-36
+105            android:launchMode="singleTask"
+105-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\b4a0681192e9387eb67a467b77354b23\transformed\firebase-auth-22.0.0\AndroidManifest.xml:33:13-44
+106            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+106-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\b4a0681192e9387eb67a467b77354b23\transformed\firebase-auth-22.0.0\AndroidManifest.xml:34:13-72
+107            <intent-filter>
+107-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\b4a0681192e9387eb67a467b77354b23\transformed\firebase-auth-22.0.0\AndroidManifest.xml:35:13-45:29
+108                <action android:name="android.intent.action.VIEW" />
+108-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\b4a0681192e9387eb67a467b77354b23\transformed\firebase-auth-22.0.0\AndroidManifest.xml:36:17-69
+108-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\b4a0681192e9387eb67a467b77354b23\transformed\firebase-auth-22.0.0\AndroidManifest.xml:36:25-66
+109
+110                <category android:name="android.intent.category.DEFAULT" />
+110-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\b4a0681192e9387eb67a467b77354b23\transformed\firebase-auth-22.0.0\AndroidManifest.xml:38:17-76
+110-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\b4a0681192e9387eb67a467b77354b23\transformed\firebase-auth-22.0.0\AndroidManifest.xml:38:27-73
+111                <category android:name="android.intent.category.BROWSABLE" />
+111-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\b4a0681192e9387eb67a467b77354b23\transformed\firebase-auth-22.0.0\AndroidManifest.xml:39:17-78
+111-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\b4a0681192e9387eb67a467b77354b23\transformed\firebase-auth-22.0.0\AndroidManifest.xml:39:27-75
+112
+113                <data
+113-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\b4a0681192e9387eb67a467b77354b23\transformed\firebase-auth-22.0.0\AndroidManifest.xml:41:17-44:51
+114                    android:host="firebase.auth"
+114-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\b4a0681192e9387eb67a467b77354b23\transformed\firebase-auth-22.0.0\AndroidManifest.xml:42:21-49
+115                    android:path="/"
+115-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\b4a0681192e9387eb67a467b77354b23\transformed\firebase-auth-22.0.0\AndroidManifest.xml:43:21-37
+116                    android:scheme="genericidp" />
+116-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\b4a0681192e9387eb67a467b77354b23\transformed\firebase-auth-22.0.0\AndroidManifest.xml:44:21-48
+117            </intent-filter>
+118        </activity>
+119        <activity
+119-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\b4a0681192e9387eb67a467b77354b23\transformed\firebase-auth-22.0.0\AndroidManifest.xml:47:9-64:20
+120            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+120-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\b4a0681192e9387eb67a467b77354b23\transformed\firebase-auth-22.0.0\AndroidManifest.xml:48:13-79
+121            android:excludeFromRecents="true"
+121-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\b4a0681192e9387eb67a467b77354b23\transformed\firebase-auth-22.0.0\AndroidManifest.xml:49:13-46
+122            android:exported="true"
+122-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\b4a0681192e9387eb67a467b77354b23\transformed\firebase-auth-22.0.0\AndroidManifest.xml:50:13-36
+123            android:launchMode="singleTask"
+123-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\b4a0681192e9387eb67a467b77354b23\transformed\firebase-auth-22.0.0\AndroidManifest.xml:51:13-44
+124            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+124-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\b4a0681192e9387eb67a467b77354b23\transformed\firebase-auth-22.0.0\AndroidManifest.xml:52:13-72
+125            <intent-filter>
+125-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\b4a0681192e9387eb67a467b77354b23\transformed\firebase-auth-22.0.0\AndroidManifest.xml:53:13-63:29
+126                <action android:name="android.intent.action.VIEW" />
+126-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\b4a0681192e9387eb67a467b77354b23\transformed\firebase-auth-22.0.0\AndroidManifest.xml:36:17-69
+126-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\b4a0681192e9387eb67a467b77354b23\transformed\firebase-auth-22.0.0\AndroidManifest.xml:36:25-66
+127
+128                <category android:name="android.intent.category.DEFAULT" />
+128-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\b4a0681192e9387eb67a467b77354b23\transformed\firebase-auth-22.0.0\AndroidManifest.xml:38:17-76
+128-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\b4a0681192e9387eb67a467b77354b23\transformed\firebase-auth-22.0.0\AndroidManifest.xml:38:27-73
+129                <category android:name="android.intent.category.BROWSABLE" />
+129-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\b4a0681192e9387eb67a467b77354b23\transformed\firebase-auth-22.0.0\AndroidManifest.xml:39:17-78
+129-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\b4a0681192e9387eb67a467b77354b23\transformed\firebase-auth-22.0.0\AndroidManifest.xml:39:27-75
+130
+131                <data
+131-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\b4a0681192e9387eb67a467b77354b23\transformed\firebase-auth-22.0.0\AndroidManifest.xml:41:17-44:51
+132                    android:host="firebase.auth"
+132-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\b4a0681192e9387eb67a467b77354b23\transformed\firebase-auth-22.0.0\AndroidManifest.xml:42:21-49
+133                    android:path="/"
+133-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\b4a0681192e9387eb67a467b77354b23\transformed\firebase-auth-22.0.0\AndroidManifest.xml:43:21-37
+134                    android:scheme="recaptcha" />
+134-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\b4a0681192e9387eb67a467b77354b23\transformed\firebase-auth-22.0.0\AndroidManifest.xml:44:21-48
+135            </intent-filter>
+136        </activity>
+137        <activity
+137-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\b96508226b0f02ae5f231f9caf9ee5e5\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:47:9-53:63
+138            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+138-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\b96508226b0f02ae5f231f9caf9ee5e5\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:48:13-74
+139            android:clearTaskOnLaunch="true"
+139-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\b96508226b0f02ae5f231f9caf9ee5e5\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:49:13-45
+140            android:screenOrientation="sensorLandscape"
+140-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\b96508226b0f02ae5f231f9caf9ee5e5\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:50:13-56
+141            android:stateNotNeeded="true"
+141-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\b96508226b0f02ae5f231f9caf9ee5e5\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:51:13-42
+142            android:theme="@style/zxing_CaptureTheme"
+142-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\b96508226b0f02ae5f231f9caf9ee5e5\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:52:13-54
+143            android:windowSoftInputMode="stateAlwaysHidden" />
+143-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\b96508226b0f02ae5f231f9caf9ee5e5\transformed\zxing-android-embedded-4.3.0\AndroidManifest.xml:53:13-60
+144
+145        <provider
+145-->[com.squareup.picasso:picasso:2.71828] C:\Users\TomiauT2G\.gradle\caches\transforms-3\770069df5d09df0baa3cd805b0a25cf8\transformed\picasso-2.71828\AndroidManifest.xml:8:9-11:40
+146            android:name="com.squareup.picasso.PicassoProvider"
+146-->[com.squareup.picasso:picasso:2.71828] C:\Users\TomiauT2G\.gradle\caches\transforms-3\770069df5d09df0baa3cd805b0a25cf8\transformed\picasso-2.71828\AndroidManifest.xml:9:13-64
+147            android:authorities="com.example.gdmdr.com.squareup.picasso"
+147-->[com.squareup.picasso:picasso:2.71828] C:\Users\TomiauT2G\.gradle\caches\transforms-3\770069df5d09df0baa3cd805b0a25cf8\transformed\picasso-2.71828\AndroidManifest.xml:10:13-72
+148            android:exported="false" />
+148-->[com.squareup.picasso:picasso:2.71828] C:\Users\TomiauT2G\.gradle\caches\transforms-3\770069df5d09df0baa3cd805b0a25cf8\transformed\picasso-2.71828\AndroidManifest.xml:11:13-37
+149        <provider
+149-->[com.google.firebase:firebase-common:20.3.2] C:\Users\TomiauT2G\.gradle\caches\transforms-3\470e89430be8c1af1d408948c2baf81f\transformed\firebase-common-20.3.2\AndroidManifest.xml:25:9-30:39
+150            android:name="com.google.firebase.provider.FirebaseInitProvider"
+150-->[com.google.firebase:firebase-common:20.3.2] C:\Users\TomiauT2G\.gradle\caches\transforms-3\470e89430be8c1af1d408948c2baf81f\transformed\firebase-common-20.3.2\AndroidManifest.xml:26:13-77
+151            android:authorities="com.example.gdmdr.firebaseinitprovider"
+151-->[com.google.firebase:firebase-common:20.3.2] C:\Users\TomiauT2G\.gradle\caches\transforms-3\470e89430be8c1af1d408948c2baf81f\transformed\firebase-common-20.3.2\AndroidManifest.xml:27:13-72
+152            android:directBootAware="true"
+152-->[com.google.firebase:firebase-common:20.3.2] C:\Users\TomiauT2G\.gradle\caches\transforms-3\470e89430be8c1af1d408948c2baf81f\transformed\firebase-common-20.3.2\AndroidManifest.xml:28:13-43
+153            android:exported="false"
+153-->[com.google.firebase:firebase-common:20.3.2] C:\Users\TomiauT2G\.gradle\caches\transforms-3\470e89430be8c1af1d408948c2baf81f\transformed\firebase-common-20.3.2\AndroidManifest.xml:29:13-37
+154            android:initOrder="100" />
+154-->[com.google.firebase:firebase-common:20.3.2] C:\Users\TomiauT2G\.gradle\caches\transforms-3\470e89430be8c1af1d408948c2baf81f\transformed\firebase-common-20.3.2\AndroidManifest.xml:30:13-36
+155        <provider
+155-->[androidx.emoji2:emoji2:1.2.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\5f694102fb202ffd06d63adef42aa333\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+156            android:name="androidx.startup.InitializationProvider"
+156-->[androidx.emoji2:emoji2:1.2.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\5f694102fb202ffd06d63adef42aa333\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+157            android:authorities="com.example.gdmdr.androidx-startup"
+157-->[androidx.emoji2:emoji2:1.2.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\5f694102fb202ffd06d63adef42aa333\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+158            android:exported="false" >
+158-->[androidx.emoji2:emoji2:1.2.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\5f694102fb202ffd06d63adef42aa333\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+159            <meta-data
+159-->[androidx.emoji2:emoji2:1.2.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\5f694102fb202ffd06d63adef42aa333\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+160                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+160-->[androidx.emoji2:emoji2:1.2.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\5f694102fb202ffd06d63adef42aa333\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+161                android:value="androidx.startup" />
+161-->[androidx.emoji2:emoji2:1.2.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\5f694102fb202ffd06d63adef42aa333\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+162            <meta-data
+162-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\TomiauT2G\.gradle\caches\transforms-3\3e17015bad2dfea33936f7af291295c8\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:29:13-31:52
+163                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+163-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\TomiauT2G\.gradle\caches\transforms-3\3e17015bad2dfea33936f7af291295c8\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:30:17-78
+164                android:value="androidx.startup" />
+164-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\TomiauT2G\.gradle\caches\transforms-3\3e17015bad2dfea33936f7af291295c8\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:31:17-49
+165            <meta-data
+165-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\c953ff46e2a4dff4db494c47a2eeb263\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+166                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+166-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\c953ff46e2a4dff4db494c47a2eeb263\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+167                android:value="androidx.startup" />
+167-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\c953ff46e2a4dff4db494c47a2eeb263\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+168        </provider>
+169
+170        <receiver
+170-->[com.google.android.gms:play-services-measurement:21.3.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\c27b7025f1ee7fab4a46168760c46488\transformed\play-services-measurement-21.3.0\AndroidManifest.xml:29:9-33:20
+171            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+171-->[com.google.android.gms:play-services-measurement:21.3.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\c27b7025f1ee7fab4a46168760c46488\transformed\play-services-measurement-21.3.0\AndroidManifest.xml:30:13-85
+172            android:enabled="true"
+172-->[com.google.android.gms:play-services-measurement:21.3.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\c27b7025f1ee7fab4a46168760c46488\transformed\play-services-measurement-21.3.0\AndroidManifest.xml:31:13-35
+173            android:exported="false" >
+173-->[com.google.android.gms:play-services-measurement:21.3.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\c27b7025f1ee7fab4a46168760c46488\transformed\play-services-measurement-21.3.0\AndroidManifest.xml:32:13-37
+174        </receiver>
+175
+176        <service
+176-->[com.google.android.gms:play-services-measurement:21.3.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\c27b7025f1ee7fab4a46168760c46488\transformed\play-services-measurement-21.3.0\AndroidManifest.xml:35:9-38:40
+177            android:name="com.google.android.gms.measurement.AppMeasurementService"
+177-->[com.google.android.gms:play-services-measurement:21.3.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\c27b7025f1ee7fab4a46168760c46488\transformed\play-services-measurement-21.3.0\AndroidManifest.xml:36:13-84
+178            android:enabled="true"
+178-->[com.google.android.gms:play-services-measurement:21.3.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\c27b7025f1ee7fab4a46168760c46488\transformed\play-services-measurement-21.3.0\AndroidManifest.xml:37:13-35
+179            android:exported="false" />
+179-->[com.google.android.gms:play-services-measurement:21.3.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\c27b7025f1ee7fab4a46168760c46488\transformed\play-services-measurement-21.3.0\AndroidManifest.xml:38:13-37
+180        <service
+180-->[com.google.android.gms:play-services-measurement:21.3.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\c27b7025f1ee7fab4a46168760c46488\transformed\play-services-measurement-21.3.0\AndroidManifest.xml:39:9-43:72
+181            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+181-->[com.google.android.gms:play-services-measurement:21.3.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\c27b7025f1ee7fab4a46168760c46488\transformed\play-services-measurement-21.3.0\AndroidManifest.xml:40:13-87
+182            android:enabled="true"
+182-->[com.google.android.gms:play-services-measurement:21.3.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\c27b7025f1ee7fab4a46168760c46488\transformed\play-services-measurement-21.3.0\AndroidManifest.xml:41:13-35
+183            android:exported="false"
+183-->[com.google.android.gms:play-services-measurement:21.3.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\c27b7025f1ee7fab4a46168760c46488\transformed\play-services-measurement-21.3.0\AndroidManifest.xml:42:13-37
+184            android:permission="android.permission.BIND_JOB_SERVICE" />
+184-->[com.google.android.gms:play-services-measurement:21.3.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\c27b7025f1ee7fab4a46168760c46488\transformed\play-services-measurement-21.3.0\AndroidManifest.xml:43:13-69
+185
+186        <activity
+186-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\TomiauT2G\.gradle\caches\transforms-3\c5d8501e79cf11f6ad4ab0afe3ce6b42\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+187            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+187-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\TomiauT2G\.gradle\caches\transforms-3\c5d8501e79cf11f6ad4ab0afe3ce6b42\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+188            android:exported="false"
+188-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\TomiauT2G\.gradle\caches\transforms-3\c5d8501e79cf11f6ad4ab0afe3ce6b42\transformed\play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+189            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+189-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\TomiauT2G\.gradle\caches\transforms-3\c5d8501e79cf11f6ad4ab0afe3ce6b42\transformed\play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+190
+191        <meta-data
+191-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\831949bb2c14b2137d9254931aeb134c\transformed\play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+192            android:name="com.google.android.gms.version"
+192-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\831949bb2c14b2137d9254931aeb134c\transformed\play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+193            android:value="@integer/google_play_services_version" />
+193-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\831949bb2c14b2137d9254931aeb134c\transformed\play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+194
+195        <receiver
+195-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\c953ff46e2a4dff4db494c47a2eeb263\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+196            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+196-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\c953ff46e2a4dff4db494c47a2eeb263\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+197            android:directBootAware="false"
+197-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\c953ff46e2a4dff4db494c47a2eeb263\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+198            android:enabled="true"
+198-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\c953ff46e2a4dff4db494c47a2eeb263\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+199            android:exported="true"
+199-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\c953ff46e2a4dff4db494c47a2eeb263\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+200            android:permission="android.permission.DUMP" >
+200-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\c953ff46e2a4dff4db494c47a2eeb263\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+201            <intent-filter>
+201-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\c953ff46e2a4dff4db494c47a2eeb263\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+202                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+202-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\c953ff46e2a4dff4db494c47a2eeb263\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+202-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\c953ff46e2a4dff4db494c47a2eeb263\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+203            </intent-filter>
+204            <intent-filter>
+204-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\c953ff46e2a4dff4db494c47a2eeb263\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+205                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+205-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\c953ff46e2a4dff4db494c47a2eeb263\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+205-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\c953ff46e2a4dff4db494c47a2eeb263\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+206            </intent-filter>
+207            <intent-filter>
+207-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\c953ff46e2a4dff4db494c47a2eeb263\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+208                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+208-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\c953ff46e2a4dff4db494c47a2eeb263\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+208-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\c953ff46e2a4dff4db494c47a2eeb263\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+209            </intent-filter>
+210            <intent-filter>
+210-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\c953ff46e2a4dff4db494c47a2eeb263\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+211                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+211-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\c953ff46e2a4dff4db494c47a2eeb263\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+211-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\TomiauT2G\.gradle\caches\transforms-3\c953ff46e2a4dff4db494c47a2eeb263\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+212            </intent-filter>
+213        </receiver>
+214    </application>
+215
+216</manifest>

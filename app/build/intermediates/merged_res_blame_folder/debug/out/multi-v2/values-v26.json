@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.gdmdr.app-mergeDebugResources-28:/values-v26/values-v26.xml",
+            "outputFile": "com.example.gdmdr.app-mergeDebugResources-38:/values-v26/values-v26.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\TomiauT2G\\.gradle\\caches\\transforms-3\\901bd1e79ca3a5e2188025eed5ecc80d\\transformed\\appcompat-1.6.1\\res\\values-v26\\values-v26.xml",
+                    "source": "C:\\Users\\TomiauT2G\\.gradle\\caches\\transforms-3\\8d3abd6e575fd43e30a64204298a8f63\\transformed\\appcompat-1.7.0-alpha02\\res\\values-v26\\values-v26.xml",
                     "from": {
                         "startLines": "2,3,4,8,12,16",
                         "startColumns": "4,4,4,4,4,4",
