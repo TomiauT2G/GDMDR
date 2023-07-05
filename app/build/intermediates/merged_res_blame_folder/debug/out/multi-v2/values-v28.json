@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.gdmdr.app-mergeDebugResources-38:/values-v28/values-v28.xml",
+            "outputFile": "com.example.gdmdr.app-mergeDebugResources-37:/values-v28/values-v28.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\TomiauT2G\\.gradle\\caches\\transforms-3\\8d3abd6e575fd43e30a64204298a8f63\\transformed\\appcompat-1.7.0-alpha02\\res\\values-v28\\values-v28.xml",
+                    "source": "C:\\Users\\TomiauT2G\\.gradle\\caches\\transforms-3\\381a32535ca50a8374af8a498a4fcb1d\\transformed\\appcompat-1.7.0-alpha02\\res\\values-v28\\values-v28.xml",
                     "from": {
                         "startLines": "2,3,4,8",
                         "startColumns": "4,4,4,4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\TomiauT2G\\.gradle\\caches\\transforms-3\\654a5f1f4e3fcae3520fd0ed139c77da\\transformed\\material-1.10.0-alpha05\\res\\values-v28\\values-v28.xml",
+                    "source": "C:\\Users\\TomiauT2G\\.gradle\\caches\\transforms-3\\46409d08cbcdae3d82b6a4c06dcfebca\\transformed\\material-1.10.0-alpha05\\res\\values-v28\\values-v28.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",

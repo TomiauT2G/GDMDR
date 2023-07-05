@@ -8,12 +8,19 @@
     <color name="teal_700">#FF018786</color>
     <color name="white">#FFFFFFFF</color>
     <string name="app_name">GDMDR</string>
+    <string name="createAct">Crear cuenta</string>
     <string name="default_web_client_id" translatable="false">1072019569910-9fa7revgasg85ja3ivde1fhtd5o6peo6.apps.googleusercontent.com</string>
+    <string name="email">Correo</string>
+    <string name="firstName">Nombre</string>
+    <string name="forgotPassword">Olvidaste tu contraseña?</string>
     <string name="gcm_defaultSenderId" translatable="false">1072019569910</string>
     <string name="google_api_key" translatable="false">AIzaSyC6dZGdmhuALG6yDE3RfYwmP13PPWggO9M</string>
     <string name="google_app_id" translatable="false">1:1072019569910:android:58b71510a180c208e500d7</string>
     <string name="google_crash_reporting_api_key" translatable="false">AIzaSyC6dZGdmhuALG6yDE3RfYwmP13PPWggO9M</string>
     <string name="google_storage_bucket" translatable="false">gdmdr-f4329.appspot.com</string>
+    <string name="lastName">Apellido</string>
+    <string name="login">Iniciar sesión</string>
+    <string name="password">Contraseña</string>
     <string name="project_id" translatable="false">gdmdr-f4329</string>
     <style name="Theme.GDMDR" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         

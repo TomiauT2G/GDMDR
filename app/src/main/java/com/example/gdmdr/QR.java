@@ -18,7 +18,7 @@ public class QR extends AppCompatActivity {
 
 
     private DecoratedBarcodeView barcodeView;
-    String username = getIntent().getStringExtra("username");
+
 
         @Override
         protected void onCreate(Bundle savedInstanceState) {
@@ -37,9 +37,8 @@ public class QR extends AppCompatActivity {
                         String scannedText = result.getText();
                         // Realiza la acción deseada con el código QR escaneado
 
-                        if (scannedText.equals("A")) {
+                        if (scannedText.equals("hola")) {
                             Intent intent = new Intent(QR.this, Menu1.class);
-                            intent.putExtra("username",username);
                             startActivity(intent);
                         }
                     }

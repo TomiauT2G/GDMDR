@@ -3,6 +3,8 @@
           xmlns:tools="http://schemas.android.com/tools">
 
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
             android:allowBackup="true"
@@ -16,16 +18,19 @@
 
         <activity
                 android:name=".MainActivity"
-                android:exported="true"/>
+                android:exported="false"/>
         <activity
                 android:name=".CarritoActivity"
-                android:exported="true"/>
+                android:exported="false"/>
         <activity
                 android:name=".Menu1"
-                android:exported="true"/>
+                android:exported="false"/>
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false"/>
         <activity
                 android:name=".QR"
-                android:exported="true"/>
+                android:exported="false"/>
         <activity
                 android:name=".LoginActivity"
                 android:exported="true">

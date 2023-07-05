@@ -13,7 +13,6 @@ public class Menu1 extends AppCompatActivity {
 
     private List<String> carrito;
     private double precioTotal;
-    String username = getIntent().getStringExtra("username");
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -52,7 +51,6 @@ public class Menu1 extends AppCompatActivity {
             Intent intent = new Intent(Menu1.this, CarritoActivity.class);
             intent.putStringArrayListExtra("carrito", new ArrayList<>(carrito));
             intent.putExtra("precioTotal", precioTotal);
-            intent.putExtra("username",username);
             startActivity(intent);
         });
     }

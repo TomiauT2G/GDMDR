@@ -1,27 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.gdmdr.app-mergeDebugResources-38:/values-sk/values-sk.xml",
+            "outputFile": "com.example.gdmdr.app-mergeDebugResources-37:/values-sk/values-sk.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\TomiauT2G\\.gradle\\caches\\transforms-3\\831949bb2c14b2137d9254931aeb134c\\transformed\\play-services-basement-18.1.0\\res\\values-sk\\values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "195",
-                        "endColumns": "134",
-                        "endOffsets": "329"
-                    },
-                    "to": {
-                        "startLines": "51",
-                        "startColumns": "4",
-                        "startOffsets": "4843",
-                        "endColumns": "138",
-                        "endOffsets": "4977"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\TomiauT2G\\.gradle\\caches\\transforms-3\\583bac338602b2deaacfe408bf8362c2\\transformed\\browser-1.4.0\\res\\values-sk\\values-sk.xml",
+                    "source": "C:\\Users\\TomiauT2G\\.gradle\\caches\\transforms-3\\a121d884c86bed9f1904bca52d41e17a\\transformed\\browser-1.4.0\\res\\values-sk\\values-sk.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
@@ -38,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\TomiauT2G\\.gradle\\caches\\transforms-3\\c5d8501e79cf11f6ad4ab0afe3ce6b42\\transformed\\play-services-base-18.0.1\\res\\values-sk\\values.xml",
+                    "source": "C:\\Users\\TomiauT2G\\.gradle\\caches\\transforms-3\\37bd2d8ecf62eb04a76078d879540d9d\\transformed\\jetified-play-services-base-18.0.1\\res\\values-sk\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -55,41 +38,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\TomiauT2G\\.gradle\\caches\\transforms-3\\b96508226b0f02ae5f231f9caf9ee5e5\\transformed\\zxing-android-embedded-4.3.0\\res\\values-sk\\values-sk.xml",
-                    "from": {
-                        "startLines": "2,3,4,5",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "55,114,161,315",
-                        "endColumns": "58,46,153,120",
-                        "endOffsets": "109,156,310,431"
-                    },
-                    "to": {
-                        "startLines": "127,128,129,130",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "11470,11529,11576,11730",
-                        "endColumns": "58,46,153,120",
-                        "endOffsets": "11524,11571,11725,11846"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\TomiauT2G\\.gradle\\caches\\transforms-3\\f9229443f0b933756a1b881cd7bdf67f\\transformed\\core-1.9.0\\res\\values-sk\\values-sk.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "126",
-                        "startColumns": "4",
-                        "startOffsets": "11369",
-                        "endColumns": "100",
-                        "endOffsets": "11465"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\TomiauT2G\\.gradle\\caches\\transforms-3\\654a5f1f4e3fcae3520fd0ed139c77da\\transformed\\material-1.10.0-alpha05\\res\\values-sk\\values-sk.xml",
+                    "source": "C:\\Users\\TomiauT2G\\.gradle\\caches\\transforms-3\\46409d08cbcdae3d82b6a4c06dcfebca\\transformed\\material-1.10.0-alpha05\\res\\values-sk\\values-sk.xml",
                     "from": {
                         "startLines": "2,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -108,7 +57,58 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\TomiauT2G\\.gradle\\caches\\transforms-3\\8d3abd6e575fd43e30a64204298a8f63\\transformed\\appcompat-1.7.0-alpha02\\res\\values-sk\\values-sk.xml",
+                    "source": "C:\\Users\\TomiauT2G\\.gradle\\caches\\transforms-3\\4d7348730e303bddf360e8fc51759a04\\transformed\\jetified-play-services-basement-18.1.0\\res\\values-sk\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "195",
+                        "endColumns": "134",
+                        "endOffsets": "329"
+                    },
+                    "to": {
+                        "startLines": "51",
+                        "startColumns": "4",
+                        "startOffsets": "4843",
+                        "endColumns": "138",
+                        "endOffsets": "4977"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\TomiauT2G\\.gradle\\caches\\transforms-3\\2ed30a9306a58db86b4daf039e5adc0b\\transformed\\core-1.9.0\\res\\values-sk\\values-sk.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "126",
+                        "startColumns": "4",
+                        "startOffsets": "11369",
+                        "endColumns": "100",
+                        "endOffsets": "11465"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\TomiauT2G\\.gradle\\caches\\transforms-3\\7adca7551794a0ef1adb0d337883df10\\transformed\\jetified-zxing-android-embedded-4.3.0\\res\\values-sk\\values-sk.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,114,161,315",
+                        "endColumns": "58,46,153,120",
+                        "endOffsets": "109,156,310,431"
+                    },
+                    "to": {
+                        "startLines": "127,128,129,130",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "11470,11529,11576,11730",
+                        "endColumns": "58,46,153,120",
+                        "endOffsets": "11524,11571,11725,11846"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\TomiauT2G\\.gradle\\caches\\transforms-3\\381a32535ca50a8374af8a498a4fcb1d\\transformed\\appcompat-1.7.0-alpha02\\res\\values-sk\\values-sk.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

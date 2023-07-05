@@ -34,7 +34,6 @@ id recyclerViewSingle
 id search
 id textViewCarrito
 id textViewPrecioTotal
-layout activity_boletas
 layout activity_carrito
 layout activity_login
 layout activity_main
@@ -44,12 +43,19 @@ layout activity_register
 mipmap ic_launcher
 mipmap ic_launcher_round
 string app_name
+string createAct
 string default_web_client_id
+string email
+string firstName
+string forgotPassword
 string gcm_defaultSenderId
 string google_api_key
 string google_app_id
 string google_crash_reporting_api_key
 string google_storage_bucket
+string lastName
+string login
+string password
 string project_id
 style Theme.GDMDR
 xml backup_rules
